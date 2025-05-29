@@ -8,7 +8,7 @@ This project is an intelligent food product label scanner built using **OCR (Opt
 ## 🚀 Features
 
 - 📷 Upload product label images via interactive **Streamlit UI**
-- 🔍 Extract text using **OCR (OpenCV + Tesseract)**
+- 🔍 Extract text using **OCR (OpenCV + easyocr)**
 - 🧾 Highlight detected text directly on the image
 - 📦 Identify product name and retrieve details:
   - Product name, brand
@@ -25,12 +25,12 @@ This project is an intelligent food product label scanner built using **OCR (Opt
 
 | Component           | Tools Used                         |
 |---------------------|------------------------------------|
-| OCR Engine          | Tesseract OCR, OpenCV              |
+| OCR Engine          | EasyOCR, OpenCV                    |
 | Barcode Reader      | Pyzbar                             |
 | Backend Framework   | Python, Streamlit                  |
 | API Integration     | Open Food Facts API                |
 | UI/UX               | Streamlit with interactive widgets |
-| Deployment Ready    | Docker (optional)                  |
+| Deployment Ready    | Streamlit                          |
 
 ---
 
