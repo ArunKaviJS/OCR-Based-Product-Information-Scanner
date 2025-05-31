@@ -21,7 +21,7 @@ st.markdown("""
         font-size: 3em;
         margin-bottom: 0.5em;
     ">
-        🧾 OCR/Barcode Based Product Info Finder
+        🧾 OCR/Barcode Based Product Info Finder(OLD MODEL)
     </h1>
 """, unsafe_allow_html=True)
 st.write("Upload an image of a food product label to retrieve its information.")
